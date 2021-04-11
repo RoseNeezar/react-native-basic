@@ -1,19 +1,29 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { View } from "react-native";
+import styled from "styled-components/native";
+
+const Layout = styled.SafeAreaView`
+  flex: 1;
+`;
+
+const Container = styled.View`
+  background-color: teal;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
+
+const Text = styled.Text`
+  font-size: 30px;
+  letter-spacing: 2px;
+`;
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <Layout>
+      <Container>
+        <Text>Please help me</Text>
+      </Container>
+    </Layout>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
