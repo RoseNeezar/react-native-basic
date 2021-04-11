@@ -1,0 +1,12 @@
+{
+  "name": "basicrn",
+  "displayName": "basicrn",
+  "expo": {
+    "name": "basicrn",
+    "slug": "basicrn",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
