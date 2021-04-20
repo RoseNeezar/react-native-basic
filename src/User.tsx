@@ -21,9 +21,7 @@ const User: FC = () => {
 
   return (
     <Layout>
-      <Header>
-        User PAGE {code} {id}
-      </Header>
+      <Header>I want the green</Header>
       <Button title="Go back" onPress={() => navigation.goBack()} />
     </Layout>
   );
